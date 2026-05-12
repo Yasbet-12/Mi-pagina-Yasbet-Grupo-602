@@ -8,48 +8,79 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+<button id="btnOcultarVolver" class="interruptor-fijo">
+    👻 OCULTAR TODO 
+</button>
 
 <body>
     <header>
+
         <h1>"Mi pagina personal"</h1>
     </header>
-
 
     <nav>
         <a href="#sobre-mi">Sobre mi</a>
         <a href="#proyecto pec">Proyecto Pec</a>
     </nav>
 
+
+    </a>
+    <div class="container">
     <section id="sobre-mi">
-        <p id="mensaje1" style="display:none;"></p>
-        <button onclick="mostrarMensaje()">Da click</button>
-        
+        <button onclick="da_click () ">Da click</button>
+        <p id="mensaje1"></p>
+        <div  style="text-align: center;">
         <h2>-Sobre mi</h2>
-        <img src="img/DR. YASBET PADILLA.jpg" alt="" width="550" height="400">
+        <div style="text-align: center;">
+        <img src="img/DR. YASBET PADILLA.jpg" alt="" width="550" height="400" >
+        </div>
         <p>Hola, mi nombre es Yasbet</p>
         <p> Soy estudiante del Cecyte EMsAD San Antonino El alto</p>
         <p>-Informacion personal</p>
         <p> Soy estudiante del EMSAD 35</p>
         <P>Estoy cursando el 6to semestre</P>
         <p>Estoy a unos meses de culminar mi CECyTE</p>
+        </div>
     </section>
+    
+    <section>
+    <div  style="text-align: center;">
+    ✨ Centro Interactivo de Iconos</h2>
+    </div>
+     <h2 style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 20px;">
+        <a href="https://wa.me/TU_NUMERO_DE_TELEFONO" target="_blank">
+            <img src="img/icono.whastapp.png" alt="WhatsApp" style="width: 50px; height: 50px;">
+        </a>
 
+        <a href="https://www.facebook.com/TU_USUARIO_O_PAGINA" target="_blank">
+            <img src="img/facebook.webp" alt="Visítanos en Facebook" style="width: 50px; height: 50px;">
+        </a>
+    </section>
+   
     <section id="proyecto pec">
-        <H2>Proyecto PEC</H2>
-        <button onclick="mostrar_mensaje()">mostrar mensaje</button>
+        <H2> Proyecto pec</H2>
+        <button onclick="mostrar_mensaje ()">mostrar mensaje</button>
         <p id="Proyecto Pec"></p>
-        <img src="img/BANNER.png" alt="" width="550" height="300">
+        <div style="text-align: center;">
+            <img src="img/BANNER.png" alt="" width="550" height="300">
+        </div>
         <h2> "Huellas: Cuidado animal y salud comunitaria</h2>
-        <p>Este proyecto va a tratar sobre nuestras mascotas</p>
-        <p> Estamos haciendo carteles entre otras cosas para
+      <p>Este proyecto va a tratar sobre nuestras mascotas</p>
+      <p> Estamos haciendo carteles entre otras cosas para
             promover el cuidado de nuestras mascotas</p>
         <p> Asi vamos a explicar y dar a conocer nuestros puntos de vista para dar a conocer este proyecto.</p>
+        </div>
     </section>
 
     <footer>
         <p>2026 - Yasbet</p>
     </footer>
+    </div>
     <script src="script.js"></script>
+
+    </button>
+    </div>
+
 </body>
 
 </html>

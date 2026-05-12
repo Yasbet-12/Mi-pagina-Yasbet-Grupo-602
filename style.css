@@ -5,7 +5,7 @@ h1
 /*estilo general de la pagina*/
 
 body{
-    font-family: Arial, Helvetica, san5-seif;
+    font-family: Arial Black, Helvetica, san5-seif;
     background-color: #caa7a7;
     margin: 0;
     line-height: 1.6;
@@ -62,3 +62,6 @@ button:active {
     transform: scale(0.95);
     background-color:#27ae60;
 }
+
+
+
